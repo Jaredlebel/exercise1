@@ -12,6 +12,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
     background-color: #000;
+    background-image: url(../images/dust.png);
 }
 
 *, *:before, *:after {
@@ -25,14 +26,12 @@ html {
 .doom i {
     top: 0.3em;
     position: relative;
-    font-size: 15em;
-    padding: 0;
-    color: #ff8c6a;
+    font-size: 17em;
+    color: #f55742;
 }
 
 h1 {
     font-family: 'Ultra', serif;
-    position: absolute;
     font-size: 4.5em;
     padding: 0 3.5em 0 3.5em;
     color: #fff;
