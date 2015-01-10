@@ -11,7 +11,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    background-color: #b53636;
+    background-color: #7c2a2a;
     background-image: url(../images/dust.png);
 }
 
@@ -19,9 +19,15 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
 .doom {
     text-align: center;
     margin: 0 auto;
+    height: 100%;
 }
 
 .doom i {
@@ -42,7 +48,7 @@ i {
 .doom i:hover {
     top: 0.78em;
     font-size: 8.3em;
-    box-shadow: 0px 6px 6px #763131;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.4);
     transition: ease-in-out 300ms;
 }
 
@@ -61,7 +67,7 @@ h1 {
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
-    color: #000;
+    color: #ccbb9e;
 }
 
 .p-big {
@@ -72,4 +78,13 @@ p {
     padding: 0.3em;
     border-radius: 10px;
     text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.icon[data-state="expanded"]{
+    background-color: #fff;
 }
