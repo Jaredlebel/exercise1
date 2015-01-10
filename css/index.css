@@ -21,18 +21,30 @@ html {
 
 .doom {
     text-align: center;
+    margin: 0 auto;
 }
 
 .doom i {
-    top: 0.3em;
+    background-color: #ffbd63;
+    top: 0.2em;
     position: relative;
-    font-size: 17em;
-    color: #f55742;
+    font-size: 14em;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 100px 100px 0 0;
+    border: solid 5px #eba94f;
+}
+
+.doom i:hover {
+    border: solid 15px #e36548;
+    transition: ease-in-out 500ms;
+    border-radius: 300px;
 }
 
 h1 {
     font-family: 'Ultra', serif;
-    font-size: 4.5em;
-    padding: 0 3.5em 0 3.5em;
+    font-size: 6em;
+    line-height: 1em;
+    padding: 0 1em 0 1em;
     color: #fff;
 }
