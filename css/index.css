@@ -25,10 +25,10 @@ body {
 }
 
 .bg-color {
-    -webkit-animation: color 100ms ease forwards infinite;
-    -moz-animation: color 100ms ease forwards infinite;
-    -o-animation: color 100ms ease forwards infinite;
-    animation: color 100ms ease forwards infinite;
+    -webkit-animation: color 110ms ease forwards infinite;
+    -moz-animation: color 110ms ease forwards infinite;
+    -o-animation: color 110ms ease forwards infinite;
+    animation: color 110ms ease forwards infinite;
 }
 
 @-webkit-keyframes color {
@@ -122,4 +122,10 @@ p {
     border-radius: 10px;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    color: #000;
 }
