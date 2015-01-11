@@ -51,7 +51,6 @@ body {
     100% { background-color: #000; }
 }
 
-
 .doom {
     text-align: center;
     margin: 0 auto;
@@ -62,6 +61,23 @@ body {
     position: relative;
     top: 1em;
     font-size: 8em;
+    padding: 0.1em 0.04em 0.25em 0.04em;
+    color: #fff;
+    margin: 0 auto;
+    border: solid 5px #fff;
+    border-radius: 250px 250px 800px 800px;
+}
+
+.doom-2 {
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.doom-2 i {
+    position: relative;
+    top: 0.5em;
+    font-size: 12em;
     padding: 0.1em 0.04em 0.25em 0.04em;
     color: #fff;
     margin: 0 auto;
@@ -83,9 +99,10 @@ h1 {
     font-size: 5em;
     line-height: 1em;
     color: #ffa960;
-    padding: 0 3em 0 3em;
+    padding: 0 2.5em 0 2.5em;
     margin-top: 1.5em;
     margin-bottom: 1.2em;
+    letter-spacing: 0.03em;
 }
 
 p {
@@ -95,6 +112,8 @@ p {
 }
 
 .p-big {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
     color: #fff;
     border: dashed 3px #ffa960;
@@ -103,12 +122,4 @@ p {
     border-radius: 10px;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.15);
-}
-
-.icon {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.icon[data-state="expanded"]{
-    background-color: #fff;
 }
